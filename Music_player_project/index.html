@@ -1,0 +1,631 @@
+
+<!-- this is the main home screen layout html page-->
+
+<!--music player is responsive 
+please check the ipad option for tablet view 
+and moto , pixel , samsung phone option for mobile 
+view for best view since i have designed wrt these-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="css_files_musictrack_and_images/design.css">
+    <link rel="stylesheet" type="text/css" href="css_files_musictrack_and_images/mdesign.css">
+	<script src="https://kit.fontawesome.com/68ae2c3b16.js" crossorigin="anonymous"></script>
+ 
+</head>
+
+<body>
+
+<div class="layout">
+
+
+<!--this is the header with logo , search bar and other icons -->
+
+<div class="upperbar">
+	<div class="logo"> 
+	  <i class="fas fa-music"></i>
+	</div>
+	
+	<div class="playerheading">
+		<h1>Ninja</h1>
+		<h3>Studio</h3>
+	</div>
+
+	<div class="favourite">
+		<h2>Favourites</h2>
+		
+	</div>
+
+	 <div class="search-bar">
+            <div>
+                <!-- magnifying glass- search icon -->
+                <i class="fas fa-search search-ico"></i>
+            </div>
+
+            <input type="text" name="search" placeholder="Search" style="
+    color: white;
+    border: 2px solid black;
+    background: repeating-linear-gradient(to right, #000000 0%, #17013e  );
+">
+
+            <div>
+                <!-- mic icon -->
+                <i class="fas fa-microphone mic-ico"></i>
+            </div>
+        </div>
+
+	<div class="notification">
+		<i class="fas fa-bell"></i>
+	</div>
+
+	<div class="myimage">
+		
+	</div>
+
+
+    <!-- initially we cannot see this but it is activated via media queries in mobile view clicking on this we get queue which covers the entire screen and we can scroll click close then to return-->
+	<div class="queue_drop">
+		<a href="#qu"><i class="fas fa-th-list"></i></a>
+		
+	</div>
+
+
+
+<!-- this is the main section contains 2 parts -->
+
+</div>
+
+<div class="main">
+
+
+
+
+
+
+<div class="mainarea">
+	<div class="carousel">
+                    <!-- these are the 3 images in the carousel -->
+                  <div>
+                  	
+                  </div>
+                  <div>
+                  	
+                  </div>
+                  <div>
+                  	
+                  </div>
+     </div>
+
+     <div class="release">
+     	<h1>Latest Release</h1>
+     	<div class="release_songs">
+     		
+     		<div class="release_song">
+     			<div class="imagecard">
+     				
+     				<a  href="#pall"><i id="play" class="fas fa-play"></i></a>
+     				<a >	<i id="pause" class="fas fa-pause"></i> </a>
+     				
+     			</div>
+
+     			<div class="imagedescription">
+     				<h3>Song Name</h3>
+     				<h5>
+     					Aug 11,2017
+     				</h5>
+     			</div>
+
+     			<div class="extra">
+     				<h2>...</h2>
+     				<h4>
+     					4:44
+     				</h4>
+     			</div>
+     		</div>
+
+     		<div class="release_song">
+     			<div class="imagecard">
+     				<a  href="#pall"><i id="play" class="fas fa-play"></i></a>
+     				<a >	<i id="pause" class="fas fa-pause"></i> </a>
+     			</div>
+     			<div class="imagedescription">
+     				<h3>Song Name</h3>
+     				<h5>
+     					Aug 11,2017
+     				</h5>
+     			</div>
+
+     			<div class="extra">
+     				<h2>...</h2>
+     				<h4>
+     					4:44
+     				</h4>
+     			</div>
+     		</div>
+
+
+     		<div class="release_song">
+     			<div class="imagecard">
+     				<a id="playbutton" href="#pall"><i id="play" class="fas fa-play"></i></a>
+     				<a id="pausebutton">	<i id="pause" class="fas fa-pause"></i> </a>
+     			</div>
+     			<div class="imagedescription">
+     				<h3>Song Name</h3>
+     				<h5>
+     					Aug 11,2017
+     				</h5>
+     			</div>
+
+     			<div class="extra">
+     				<h2>...</h2>
+     				<h4>
+     					4:44
+     				</h4>
+     			</div>
+     		</div>
+
+
+     		<div class="release_song">
+     			<div class="imagecard">
+     				<a id="playbutton" href="#pall"><i id="play" class="fas fa-play"></i></a>
+     				<a id="pausebutton">	<i id="pause" class="fas fa-pause"></i> </a>
+     			</div>
+     			<div class="imagedescription">
+     				<h3>Song Name</h3>
+     				<h5>
+     					Aug 11,2017
+     				</h5>
+     			</div>
+     			<div class="extra">
+     				<h2>...</h2>
+     				<h4>
+     					4:44
+     				</h4>
+     			</div>
+     		</div>
+
+
+     	</div>
+     </div>
+
+
+     <div class="popular_artists">
+
+     	<h1>Popular Artists</h1>
+
+     	<div class="artists">
+     		
+     		<div class="artist">
+     			<a href="singleplay.html">
+     			<div class="artist_image">
+     				
+     			</div>
+     		</a>
+     			<h3>Eminem</h3>
+     		</div>
+
+
+     		<div class="artist">
+     				<a href="singleplay.html">
+     			<div class="artist_image">
+     				
+     			</div>
+     		</a>
+     			<h3>Eminem</h3>
+     		</div>
+
+
+     		<div class="artist">
+     				<a href="singleplay.html">
+     			<div class="artist_image">
+     				
+     			</div>
+     		</a>
+     			<h3>Eminem</h3>
+     		</div>
+
+
+     		<div class="artist">
+     				<a href="singleplay.html">
+     			<div class="artist_image">
+     				
+     			</div>
+     		</a>
+     			<h3>Eminem</h3>
+     		</div>
+
+
+     		<div class="artist">
+     				<a href="singleplay.html">
+     			<div class="artist_image">
+     				
+     			</div>
+     		</a>
+     			<h3>Eminem</h3>
+     		</div>
+
+
+     		<div class="artist">
+     				<a href="singleplay.html">
+     			<div class="artist_image">
+     				
+     			</div>
+     		</a>
+     			<h3>Eminem</h3>
+     		</div>
+
+     	</div>
+     	
+     </div>
+
+
+     <div class="music_types">
+
+     	<div class="special">
+     		<div class="orange">
+     			<div class="player">
+     				<h3>
+     					Stations
+     				</h3>
+     			</div>
+     		</div>
+     		<div class="layer_one1">
+     			
+     		</div>
+     		<div class="layer_one2">
+     			
+     		</div>
+
+     		<div class="layer_two1">
+     			
+     		</div>
+     		<div class="layer_two2">
+     			
+     		</div>
+     	</div>
+
+     	<div class="types">
+
+     		<div class="type_image">
+     			<h3>Pop</h3>
+     		</div>
+
+     		<div class="type_image">
+     			<h3>Pop</h3>
+     		</div>
+
+     		<div class="type_image">
+     			<h3>Pop</h3>
+     		</div>
+
+     		<div class="type_image">
+     			<h3>Pop</h3>
+     		</div>
+
+     		<div class="type_image">
+     			<h3>Pop</h3>
+     		</div>
+     		
+     	</div>
+     	
+     </div>
+
+
+     <div class="genres">
+     	<div class="genre_type red">
+     		<h1>Party</h1>
+     	</div>
+
+     	<div class="genre_type blue">
+     		<h1>Electronic</h1>
+     	</div>
+
+     	<div class="genre_type green">
+     		<h1>Road Trip</h1>
+     	</div>
+
+     </div>
+
+
+
+     <div class="latest_english">
+     	<h1>Latest English</h1>
+     	
+     	<div class="latest">
+     	<div class="latest_tracks">
+     		<div class="latest_image">
+     			
+     		</div>
+
+     		<h4>Song</h4>
+     		<h4>August 17,2011</h4>
+     	</div>
+
+
+     	<div class="latest_tracks">
+     		<div class="latest_image">
+     			
+     		</div>
+
+     		<h4>Song</h4>
+     		<h4>August 17,2011</h4>
+     	</div>
+
+
+     	<div class="latest_tracks">
+     		<div class="latest_image">
+     			
+     		</div>
+
+     		<h4>Song</h4>
+     		<h4>August 17,2011</h4>
+     	</div>
+
+
+     	<div class="latest_tracks">
+     		<div class="latest_image">
+     			
+     		</div>
+
+     		<h4>Song</h4>
+     		<h4>August 17,2011</h4>
+     	</div>
+
+     </div>
+     </div>
+
+
+
+
+          <div class="latest_english">
+     	<h1>Latest Hindi</h1>
+     	<div class="latest">
+     	<div class="latest_tracks">
+     		<div class="latest_image">
+     			
+     		</div>
+
+     		<h4>Song</h4>
+     		<h4>August 17,2011</h4>
+     	</div>
+
+
+     	<div class="latest_tracks">
+     		<div class="latest_image">
+     			
+     		</div>
+
+     		<h4>Song</h4>
+     		<h4>August 17,2011</h4>
+     	</div>
+
+
+     	<div class="latest_tracks">
+     		<div class="latest_image">
+     			
+     		</div>
+
+     		<h4>Song</h4>
+     		<h4>August 17,2011</h4>
+     	</div>
+
+
+     	<div class="latest_tracks">
+     		<div class="latest_image">
+     			
+     		</div>
+
+     		<h4>Song</h4>
+     		<h4>August 17,2011</h4>
+     	</div>
+     </div>
+     </div>
+
+
+
+</div>
+
+
+
+     
+                        
+
+
+
+
+
+
+
+
+<!-- this is the queue-->
+
+<div id="qu" class="queuearea">
+	
+	<div class="heading">
+		
+<!-- included for mobile view-->
+		<a href="#"><h1 style="color: white;">Close<h1></a>
+
+		<h1>Queue</h1>
+		
+
+<!-- dropdown menu-->
+
+		<div class="dropdown">
+			
+
+
+
+			<h3 style="
+    right: 0%;
+    position: fixed;
+">
+				Queue<span id="droparrow"><a href="#drop">v</a></span>
+			</h3>
+			
+
+
+
+			<div class="dropoption" id="drop">
+                <p><a href="" style="color:#007bff; font-weight:bolder;">Playlists</a></p>
+                <hr>
+                <p><a href="" style="color:#007bff; font-weight:bolder;">Favourite songs</a></p>
+                <hr>
+                <p><a href="#" style="color:red; font-weight:bolder;">Close</a></p>
+            </div>
+
+
+		</div>
+	</div>
+	
+	<div class="item">
+		<div class="favouriteimage">
+			<i class="fas fa-play"></i>
+		</div>
+		<i class="far fa-heart"></i>
+	</div>
+
+	
+	
+	<div class="item">
+		<div class="favouriteimage">
+			<i class="fas fa-play"></i>
+		</div>
+		<i class="far fa-heart"></i>
+	</div>
+
+	<div class="item">
+		<div class="favouriteimage">
+			<i class="fas fa-play"></i>
+		</div>
+		<i class="far fa-heart"></i>
+	</div>
+
+	<div class="item">
+		<div class="favouriteimage">
+			<i class="fas fa-play"></i>
+		</div>
+		<i class="far fa-heart"></i>
+	</div>
+
+	<div class="item">
+		<div class="favouriteimage">
+			<i class="fas fa-play"></i>
+		</div>
+		<i class="far fa-heart"></i>
+	</div>
+
+	<div class="item">
+		<div class="favouriteimage">
+			<i class="fas fa-play"></i>
+		</div>
+		<i class="far fa-heart"></i>
+	</div>
+
+	<div class="item">
+		<div class="favouriteimage">
+			<i class="fas fa-play"></i>
+		</div>
+		<i class="far fa-heart"></i>
+	</div>
+
+	<div class="item">
+		<div class="favouriteimage">
+			<i class="fas fa-play"></i>
+		</div>
+		<i class="far fa-heart"></i>
+	</div>
+
+	<div class="item">
+		<div class="favouriteimage">
+			<i class="fas fa-play"></i>
+		</div>
+		<i class="far fa-heart"></i>
+	</div>
+
+	<div class="item">
+		<div class="favouriteimage">
+			<i class="fas fa-play"></i>
+		</div>
+		<i class="far fa-heart"></i>
+	</div>
+
+	<div class="item">
+		<div class="favouriteimage">
+			<i class="fas fa-play"></i>
+		</div>
+		<i class="far fa-heart"></i>
+	</div>
+
+	<div class="item">
+		<div class="favouriteimage">
+			<i class="fas fa-play"></i>
+		</div>
+		<i class="far fa-heart"></i>
+	</div>
+
+
+</div>
+	
+</div>
+
+<!--this is the music pallete-->
+
+
+<!-- this pallete appears on home screen when we click
+on the latest release songs-->
+	<div id="pall" class="pallete">
+	<div class="songinfo">
+		<div class="playing_card">
+			
+		</div>
+		<div class="name_artist">
+			<h3 style="
+    font-size: unset;
+">Bombay Dreams</h3>
+			<h4>KSHMR</h4>
+		</div>
+
+		<div class="options">
+
+			<i class="far fa-heart"></i>
+
+			<i class="fas fa-ban"></i>
+			
+		</div>
+		
+	</div>
+	
+
+
+	<div class="main_pallete">
+	
+	<audio controls>
+		<source src="css_files_musictrack_and_images/kshmr.mp3" type="audio/mp3">
+	</audio>
+
+    </div>
+
+
+    <div class="extra_controls">
+    	<i class="fas fa-list-ul"></i>
+    	<i class="fas fa-laptop"></i>
+    	<a href="#">
+
+<!--to close click on the expand icon on the pallete -->
+    		<i class="fas fa-expand-alt"></i></a>
+    </div>
+
+</div>
+
+
+
+
+
+
+</div>
+</body>
+</html>
